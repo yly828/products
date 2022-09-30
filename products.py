@@ -5,14 +5,21 @@ while True:
     	break
     
     price = input('請輸入商品價格：')
-    p = [name, price]
+    # p = [name, price]
     # p=[]
     # p.append(name)
     # p.append(price)
-    products.append(p)
+    products.append([name, price])
 print(products)	
 
-print(products[0][0])
-print(products[0][1])
+
+# print(products[0][0])
+# print(products[0][1])
+
+for product in products:
+	print(product)
+
+print(product)
+
 
 
